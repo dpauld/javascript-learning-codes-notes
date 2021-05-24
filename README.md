@@ -3,6 +3,36 @@
 ### Variable Scope
 https://dev.to/sandy8111112004/javascript-introduction-to-scope-function-scope-block-scope-d11
 
+### JavaScript Hoisting
+All declarations (var, let, const, function, function*, class) are "hoisted" in JavaScript. This means that if a name is declared in a scope, in that scope the identifier will always reference that particular variable. However incase of let, const the situation become little different if they are not initialized(with default value or user value) before the use. "var" is initialized with undefined by default, however let/const are nit.
+
+Example 1
+```
+var a;
+console.log(a); //undefined
+
+console.log(b); //undefined
+var b;
+
+let x;
+console.log(x); //undefined
+
+console.log(y); // Uncaught ReferenceError: y is not defined
+let y; 
+```
+The variable 'y' gives a referenceError, that doesn't mean it's not hoisted. The variable is created when the containing environment is instantiated. But it may not be accessed bcz of it being in an inaccessible "temporal dead zone".
+Example 2
+```
+let mylet = 'my value';
+ 
+(function() {
+  //let mylet;//uncomment it to test
+  console.log(mylet); // "my value"
+  mylet = 'local value';
+})();
+```
+In Example 3, the freshly declared "mylet" variable inside the function does not have an Initializer before the log statement, hence the value "undefined".
+
 ### Difference between var, let, const
 https://dev.to/sandy8111112004/javascript-var-let-const-41he
 
