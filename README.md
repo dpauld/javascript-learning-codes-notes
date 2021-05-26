@@ -80,5 +80,10 @@ const user = { name: 'John Doe', age: 34 };
 const { name: userName, age: userAge } = user;
 ```
 ### Server and Client
- 
+ DNS Server: Reside to data center of the ISP or collects from third party, from where ISP sends the corresponding IP of the domain name the user tryng to access. Once the browser gets the IP it starts is's conversion with the Web Server hosting the website.
 ![image](https://user-images.githubusercontent.com/24862973/119589673-190f4380-bdf5-11eb-91cb-0369db01c6eb.png)
+
+![image](https://user-images.githubusercontent.com/24862973/119736896-3fd68400-bea0-11eb-96c0-58eadd7674e9.png)
+
+https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server
+![image](https://user-images.githubusercontent.com/24862973/119736567-b757e380-be9f-11eb-824d-56cd90c9db5f.png)
