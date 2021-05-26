@@ -79,3 +79,6 @@ const { name, age } = user;//destructures the values in the variable name and ag
 const user = { name: 'John Doe', age: 34 };
 const { name: userName, age: userAge } = user;
 ```
+### Server and Client
+ 
+![image](https://user-images.githubusercontent.com/24862973/119589673-190f4380-bdf5-11eb-91cb-0369db01c6eb.png)
