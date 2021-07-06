@@ -1,5 +1,19 @@
 # JS_Tutorials_Notes
 
+## Backend Things need to learn
+As a backend Developer you should learn these things
+1) how to connect backend app with database
+2) developing rest apis
+3) storing and retrieving data from database
+4) authentication and authorization admin role 
+5) user tracking with cookies and sessions
+6) error handling
+7) secure communication 
+8) file uploads 
+9) cross origin resource sharing
+10) data caching
+11) socket programming
+
 ### Variable Scope
 https://dev.to/sandy8111112004/javascript-introduction-to-scope-function-scope-block-scope-d11
 
