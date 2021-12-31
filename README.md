@@ -1,7 +1,7 @@
 # JS_Tutorials_Notes
 ## Tasks to Accomplish
-1) Javascript Fundamentals
-2) Advance Topics
+1) Javascript Fundamentals - [John Smillga Youtube JS Fundamentals](https://youtu.be/2Ji-clqUYnA)
+2) Advance Topics - 
 3) Practice Problems
 4) Projects
 5) Frameworks
