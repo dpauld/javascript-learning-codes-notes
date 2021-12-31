@@ -1,4 +1,10 @@
 # JS_Tutorials_Notes
+## Tasks to Accomplish
+1) Javascript Fundamentals
+2) Advance Topics
+3) Practice Problems
+4) Projects
+5) Frameworks
 
 ## Backend Things need to learn
 As a backend Developer you should learn these things
